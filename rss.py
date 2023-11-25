@@ -2,7 +2,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-def save_rss_feed(audiobooks, save_path='./docs/rss.xml'):
+def save_rss_feed(audiobooks, save_path):
     '''Generates an rss feed for the audiobooks to be used with podcast apps'''
     save_path = Path(save_path)
     save_path.parent.mkdir(exist_ok=True)
@@ -43,14 +43,18 @@ def save_rss_feed(audiobooks, save_path='./docs/rss.xml'):
     )
 
     rss_items = ''
-    episoode_count = 0
+    audiobook_count = 0
+    total_episode_count = 0
+    print('\nExporting audiobooks to RSS feed...')
+
     for audiobook in audiobooks:
+        print(f"\t{audiobook['title']} ({len(audiobook['episodes'])} episodes)")
         for episode in audiobook['episodes']:
             title = f"{audiobook['title']} - {episode['episode_number']}"
             description = f'{title}\n'
             description += f'Report issues with episodes at <a href="{github_url}">{github_url}</a>.\n\n'
             description += audiobook['description']
-            description += '\nEpisode description/links courtesy of https://hamroawaz.blogspot.com.'
+            description += '\nEpisode description/link courtesy of https://hamroawaz.blogspot.com.'
             pubdate = audiobook['timestamp']
             image = audiobook['cover_image_link']
             image = cover_image if image == '' else image
@@ -72,10 +76,12 @@ def save_rss_feed(audiobooks, save_path='./docs/rss.xml'):
                 '        </item>\n'
             )
             rss_items += rss_item
-            episoode_count += 1
+            total_episode_count += 1
+        audiobook_count += 1
 
     rss_feed_end = '</channel>\n</rss>\n'
     rss_feed = rss_feed_start + rss_items + rss_feed_end
     with open(save_path, 'w') as f:
         f.write(rss_feed)
-    print(f'Saved RSS feed with {episoode_count} episodes at {save_path}')
+    print(f'Saved RSS feed with {audiobook_count} audiobooks '
+          f'with a total of {total_episode_count} episodes at {save_path}.')
