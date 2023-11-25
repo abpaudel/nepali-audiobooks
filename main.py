@@ -14,8 +14,9 @@ def get_all_audiobooks(main_page_url, post_class='post hentry', content_class='p
     audiobooks = []
     for i, link in enumerate(links):
         link['href'] = clean_link(link['href'])
+        link['title'] = link.get('title', link.text).strip()
         print(f"Scraping {i+1}/{len(links)}: {link['href']}")
-        print(f"\tTitle: {link.text}")
+        print(f"\tTitle: {link['title']}")
         audiobook = scrape_audiobook_episodes(link['href'], post_class, content_class)
         if audiobook is None:
             continue
@@ -28,14 +29,14 @@ def get_all_audiobooks(main_page_url, post_class='post hentry', content_class='p
             ahref_tags = soup_.find_all('a', href=True)
             for ahref_tag in ahref_tags:
                 ahref_tag['href'] = clean_link(ahref_tag['href'])
-                if not verify_link(ahref_tag['href'], title=link.text):
+                if not verify_link(ahref_tag['href'], title=link['title']):
                     continue
                 audiobook_ = scrape_audiobook_episodes(ahref_tag['href'], post_class, content_class, is_retry=True)
                 if 'episodes' in audiobook_:
                     audiobook['episodes'] = audiobook_['episodes']
                     print(f"\t\tValid link at {ahref_tag['href']}")
                     break
-        audiobook['title'] = link.text
+        audiobook['title'] = link['title']
         if 'episodes' in audiobook:
             audiobooks.append(audiobook)
             print(f"\tFound {len(audiobook['episodes'])} episodes for {audiobook['title']}.")
@@ -137,7 +138,7 @@ def clean_link(link):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--main-page-url', default="https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html")
-    parser.add_argument('--rss-path', default='./docs/rss.xml', help='Path of XML file where RSS feed is generated.')
+    parser.add_argument('--rss-path', default='./feed/rss.xml', help='Path of XML file where RSS feed is generated.')
     args = parser.parse_args()
 
     audiobooks = get_all_audiobooks(args.main_page_url)
