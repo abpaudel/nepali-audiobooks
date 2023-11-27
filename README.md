@@ -14,152 +14,153 @@ There are *147 audiobooks* with a total of *956 episodes*.
 
 <details>
 <summary>View all available audiobooks</summary>
-
-1. Junkiri Ko Sangeet
-1. Subarnalata
-1. Sarsarti Sansar
-1. Jhareko Paat
-1. Faliyeko Saman
-1. Swet Bhairabi
-1. Paheli
-1. Maiya
-1. Laltin Ko Ujyaloma
-1. Yunika
-1. Hajur Aama Ko Katha
-1. Meera
-1. Tamasuk
-1. Tribhuvan Ki Erika
-1. Ojhel
-1. Jadau Malik
-1. Ramila Nani
-1. Naughreko June
-1. Nihau Namaste
-1. Jhajhalkaharu
-1. White Cane
-1. Taap
-1. Abiral Bagdachha Indrawati
-1. Arki Aimai
-1. Bhok Ra Bhittaharu
-1. Aarli Bhai
-1. Chuli
-1. Sabiti Novel
-1. Urgen ko Ghoda
-1. Mantha Darayeko Juug
-1. Red Square
-1. Budhan Ko Ghodi
-1. Gham Ka Paila Haru
-1. Lu Novel
-1. Godhuli Sansar
-1. Abstract Chintan Pyaj
-1. Vianna Ma Tin Mahina
-1. Kathmandu Selfie
-1. Gularko Phool
-1. Dhamboji Chok
-1. Affairgunj
-1. Dwanda Ko Abasan
-1. Timro Logne Ra Ma
-1. Saya Novel
-1. Likhe Novel
-1. Siddhartha Novel
-1. Aaja Ramita Cha
-1. Lal Chudi | Krishna Abiral
-1. Anuradha
-1. Seto Dharti
-1. Sakas
-1. Sadak Ra Pratibha
-1. Chat Girl
-1. Unko Samjhana
-1. Summer Love
-1. Agnibatika
-1. Karnali Blues
-1. Damini Bhir
-1. Darbar Bahiraki Maharani
-1. Muluk Bahira Ma
-1. Atripta Garbhadhan
-1. Aakarharu ra Chhaayaaharu | Nepali Story
-1. Comrade Anjana and Chuki | Nepali Story
-1. Yesari Janmiyaou Hami Maato Baata
-1. Soch | Karna Shakya
-1. Shanta
-1. Sahar Ko Katha
-1. Chapaiyeka Anuhar
-1. Deshle Hareko Yudha
-1. Pallo Gharko Jhyal
-1. Laila Majnu
-1. Franseli Premi
-1. Lolita
-1. Pyaas Bhitrako Bidroha
-1. Seto Bagh
-1. Karma
-1. Nasho
-1. Barbarik
-1. Atma Britanta
-1. Nepali Novel Palpasa Cafe
-1. Nepali Novel Pagal basti
-1. Nepali Novel Radha
-1. Novel Romeo and Juliet
-1. Nepali Novel Sumnima
-1. Nepali Novel Maile Sarita ko Hatya Gare
-1. Nepali Novel Paribhasit Aakhaharu
-1. Nepali Novel Babu Aama Ra Chora
-1. Cleopatra
-1. Nepali Novel Tin Ghumti
-1. Eleven Minutes
-1. The Good Earth
-1. The Alchemist
-1. Anabrit
-1. Akhet
-1. Pani ko Gham
-1. Nepali Novel Communist
-1. Naagpash
-1. Deuki
-1. Prastab Prem
-1. karagar nepali novels, Shruti Sambeg, Achyut Ghimire
-1. Nepali Novel Aadha Bato
-1. Tee Dinharu
-1. Nepali Novel Jhola
-1. Antarman ko Yatra
-1. Phool ko Aankha ma
-1. Santa Gatha
-1. China Harayeko Manche
-1. Divaswapna
-1. Parikrama Annapurna
-1. Jhunu Maiya
-1. Location
-1. Nilo Trishna, Niskarsha
-1. Saharko Khojima | Ujyalo Tira | Euta Antya
-1. Kandaaghari Kaa Phool Haru
-1. Stories from Hawan
-1. Yatra Aarambhako Serofero
-1. Kaidi Number 11 | Janmina Napayeka Nani Haru
-1. Urmila | Surparnkha
-1. Aakarharu ra Chhaayaaharu | Nepali Story
-1. Yesari Janmiyaou Hami Maato Baata
-1. Chuki | Nepali Story
-1. Comrade Anjana | Nepali Story
-1. Urmila | Nepali Story
-1. Suparnakha | Nepali Story
-1. Arko Jeevan | Nepal Story
-1. Dristi | Nepali Story
-1. Living Together | Nepali Story
-1. Lakure Pheri Phulne Cha | Nepali Story
-1. Nilo Trishna | Nepali Story
-1. Niskarsa | Nepali Story
-1. Fatemako Anido Raat | Christina at the Rate | Mrityu Mela | Raju Babu Shrestha
-1. Chita Mathi ko Bihani | Kahile Banda Nahune Dhoka | Chita Mathiko Bihani
-1. Post Martum | Nepali Story
-1. Udharo Jutta | Nepali Story
-1. Pema Bhauju | Grihayuddha ko Ghau katha sangraha
-1. Chiso Gham | Pratirup | Parai Aama | Saru Pokhrel
-1. 19 Number | Skhalan | Anamol Mani Poudel
-1. Budho Kusumko Rukh | Duri Parda Bhitra Parda Bahira | Aawaz
-1. Kabi ek Rekhachitra | Comrade ek Kathaharu
-1. Ghoda | Santule Chakai
-1. Sanskar | Bhoot | Rajendra Bimal ka Kathaharu
-1. Ghat Pratighat | Jindagi, a Time Bomb | Dhurba Sapkota
-1. Kalo Pot | Ragatle Latpatieka Jijibisha | Daulat Bikram Bista
-1. Dallo and Flight Number 717 | Lenin Banjade
-1. Abhisapta | Sambandhahin Sambandha haru
-1. Yuddha | Matapitalai Sodhnuhos | Aama Januhos | Maya Thakuri
-1. Karodau Kasturi
+<ol>
+    <li>Junkiri Ko Sangeet</li>
+    <li>Subarnalata</li>
+    <li>Sarsarti Sansar</li>
+    <li>Jhareko Paat</li>
+    <li>Faliyeko Saman</li>
+    <li>Swet Bhairabi</li>
+    <li>Paheli</li>
+    <li>Maiya</li>
+    <li>Laltin Ko Ujyaloma</li>
+    <li>Yunika</li>
+    <li>Hajur Aama Ko Katha</li>
+    <li>Meera</li>
+    <li>Tamasuk</li>
+    <li>Tribhuvan Ki Erika</li>
+    <li>Ojhel</li>
+    <li>Jadau Malik</li>
+    <li>Ramila Nani</li>
+    <li>Naughreko June</li>
+    <li>Nihau Namaste</li>
+    <li>Jhajhalkaharu</li>
+    <li>White Cane</li>
+    <li>Taap</li>
+    <li>Abiral Bagdachha Indrawati</li>
+    <li>Arki Aimai</li>
+    <li>Bhok Ra Bhittaharu</li>
+    <li>Aarli Bhai</li>
+    <li>Chuli</li>
+    <li>Sabiti Novel</li>
+    <li>Urgen ko Ghoda</li>
+    <li>Mantha Darayeko Juug</li>
+    <li>Red Square</li>
+    <li>Budhan Ko Ghodi</li>
+    <li>Gham Ka Paila Haru</li>
+    <li>Lu Novel</li>
+    <li>Godhuli Sansar</li>
+    <li>Abstract Chintan Pyaj</li>
+    <li>Vianna Ma Tin Mahina</li>
+    <li>Kathmandu Selfie</li>
+    <li>Gularko Phool</li>
+    <li>Dhamboji Chok</li>
+    <li>Affairgunj</li>
+    <li>Dwanda Ko Abasan</li>
+    <li>Timro Logne Ra Ma</li>
+    <li>Saya Novel</li>
+    <li>Likhe Novel</li>
+    <li>Siddhartha Novel</li>
+    <li>Aaja Ramita Cha</li>
+    <li>Lal Chudi | Krishna Abiral</li>
+    <li>Anuradha</li>
+    <li>Seto Dharti</li>
+    <li>Sakas</li>
+    <li>Sadak Ra Pratibha</li>
+    <li>Chat Girl</li>
+    <li>Unko Samjhana</li>
+    <li>Summer Love</li>
+    <li>Agnibatika</li>
+    <li>Karnali Blues</li>
+    <li>Damini Bhir</li>
+    <li>Darbar Bahiraki Maharani</li>
+    <li>Muluk Bahira Ma</li>
+    <li>Atripta Garbhadhan</li>
+    <li>Aakarharu ra Chhaayaaharu | Nepali Story</li>
+    <li>Comrade Anjana and Chuki | Nepali Story</li>
+    <li>Yesari Janmiyaou Hami Maato Baata</li>
+    <li>Soch | Karna Shakya</li>
+    <li>Shanta</li>
+    <li>Sahar Ko Katha</li>
+    <li>Chapaiyeka Anuhar</li>
+    <li>Deshle Hareko Yudha</li>
+    <li>Pallo Gharko Jhyal</li>
+    <li>Laila Majnu</li>
+    <li>Franseli Premi</li>
+    <li>Lolita</li>
+    <li>Pyaas Bhitrako Bidroha</li>
+    <li>Seto Bagh</li>
+    <li>Karma</li>
+    <li>Nasho</li>
+    <li>Barbarik</li>
+    <li>Atma Britanta</li>
+    <li>Nepali Novel Palpasa Cafe</li>
+    <li>Nepali Novel Pagal basti</li>
+    <li>Nepali Novel Radha</li>
+    <li>Novel Romeo and Juliet</li>
+    <li>Nepali Novel Sumnima</li>
+    <li>Nepali Novel Maile Sarita ko Hatya Gare</li>
+    <li>Nepali Novel Paribhasit Aakhaharu</li>
+    <li>Nepali Novel Babu Aama Ra Chora</li>
+    <li>Cleopatra</li>
+    <li>Nepali Novel Tin Ghumti</li>
+    <li>Eleven Minutes</li>
+    <li>The Good Earth</li>
+    <li>The Alchemist</li>
+    <li>Anabrit</li>
+    <li>Akhet</li>
+    <li>Pani ko Gham</li>
+    <li>Nepali Novel Communist</li>
+    <li>Naagpash</li>
+    <li>Deuki</li>
+    <li>Prastab Prem</li>
+    <li>karagar nepali novels, Shruti Sambeg, Achyut Ghimire</li>
+    <li>Nepali Novel Aadha Bato</li>
+    <li>Tee Dinharu</li>
+    <li>Nepali Novel Jhola</li>
+    <li>Antarman ko Yatra</li>
+    <li>Phool ko Aankha ma</li>
+    <li>Santa Gatha</li>
+    <li>China Harayeko Manche</li>
+    <li>Divaswapna</li>
+    <li>Parikrama Annapurna</li>
+    <li>Jhunu Maiya</li>
+    <li>Location</li>
+    <li>Nilo Trishna, Niskarsha</li>
+    <li>Saharko Khojima | Ujyalo Tira | Euta Antya</li>
+    <li>Kandaaghari Kaa Phool Haru</li>
+    <li>Stories from Hawan</li>
+    <li>Yatra Aarambhako Serofero</li>
+    <li>Kaidi Number 11 | Janmina Napayeka Nani Haru</li>
+    <li>Urmila | Surparnkha</li>
+    <li>Aakarharu ra Chhaayaaharu | Nepali Story</li>
+    <li>Yesari Janmiyaou Hami Maato Baata</li>
+    <li>Chuki | Nepali Story</li>
+    <li>Comrade Anjana | Nepali Story</li>
+    <li>Urmila | Nepali Story</li>
+    <li>Suparnakha | Nepali Story</li>
+    <li>Arko Jeevan | Nepal Story</li>
+    <li>Dristi | Nepali Story</li>
+    <li>Living Together | Nepali Story</li>
+    <li>Lakure Pheri Phulne Cha | Nepali Story</li>
+    <li>Nilo Trishna | Nepali Story</li>
+    <li>Niskarsa | Nepali Story</li>
+    <li>Fatemako Anido Raat | Christina at the Rate | Mrityu Mela | Raju Babu Shrestha</li>
+    <li>Chita Mathi ko Bihani | Kahile Banda Nahune Dhoka | Chita Mathiko Bihani</li>
+    <li>Post Martum | Nepali Story</li>
+    <li>Udharo Jutta | Nepali Story</li>
+    <li>Pema Bhauju | Grihayuddha ko Ghau katha sangraha</li>
+    <li>Chiso Gham | Pratirup | Parai Aama | Saru Pokhrel</li>
+    <li>19 Number | Skhalan | Anamol Mani Poudel</li>
+    <li>Budho Kusumko Rukh | Duri Parda Bhitra Parda Bahira | Aawaz</li>
+    <li>Kabi ek Rekhachitra | Comrade ek Kathaharu</li>
+    <li>Ghoda | Santule Chakai</li>
+    <li>Sanskar | Bhoot | Rajendra Bimal ka Kathaharu</li>
+    <li>Ghat Pratighat | Jindagi, a Time Bomb | Dhurba Sapkota</li>
+    <li>Kalo Pot | Ragatle Latpatieka Jijibisha | Daulat Bikram Bista</li>
+    <li>Dallo and Flight Number 717 | Lenin Banjade</li>
+    <li>Abhisapta | Sambandhahin Sambandha haru</li>
+    <li>Yuddha | Matapitalai Sodhnuhos | Aama Januhos | Maya Thakuri</li>
+    <li>Karodau Kasturi</li>
+</ol>
 </details>
