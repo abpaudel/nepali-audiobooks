@@ -9,8 +9,8 @@ https://abpaudel.com/nepali-audiobooks/feed/rss.xml
 ```
 
 ## Available audiobooks
-As of now most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
-There are *147 audiobooks* with a total of *956 episodes*.
+As of now, most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
+There are **147 audiobooks** with a total of **956 episodes**.
 
 <details>
 <summary>View all available audiobooks</summary>
@@ -164,3 +164,6 @@ There are *147 audiobooks* with a total of *956 episodes*.
     <li>Karodau Kasturi</li>
 </ol>
 </details>
+
+## Contributing
+If you find any issues with existing audiobooks or would like to any new Nepali audiobooks that are publicly available, please open an issue or a pull request.
