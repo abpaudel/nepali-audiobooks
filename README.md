@@ -166,4 +166,4 @@ There are **147 audiobooks** with a total of **956 episodes**.
 </details>
 
 ## Contributing
-If you find any issues with existing audiobooks or would like to any new Nepali audiobooks that are publicly available, please open an issue or a pull request.
+If you find any issues with existing audiobooks or would like to new Nepali audiobooks that are publicly available, please open an issue or a pull request.
