@@ -54,12 +54,12 @@ def save_rss_feed(audiobooks, save_path):
             description = f'{title}\n'
             description += f'Report issues with episodes at <a href="{github_url}">{github_url}</a>.\n\n'
             description += audiobook['description']
-            description += '\nEpisode description/link courtesy of https://hamroawaz.blogspot.com.'
+            description += '\nEpisode description/links courtesy of https://hamroawaz.blogspot.com.'
             pubdate = audiobook['timestamp']
             image = audiobook['cover_image_link']
             image = cover_image if image == '' else image
             audiobook_link = audiobook['link']
-            subtitle = episode['episode_name']
+            subtitle = episode['episode_name'] if episode['episode_name'] != '' else title
             episode_link = episode['link']
             rss_item = (
                 '       <item>\n'
