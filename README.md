@@ -10,7 +10,7 @@ https://abpaudel.com/nepali-audiobooks/feed/rss.xml
 
 ## Available audiobooks
 As of now, most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
-There are **147 audiobooks** with a total of **956 episodes**.
+There are **147 audiobooks** with a total of **969 episodes**.
 
 <details>
 <summary>View all available audiobooks</summary>
