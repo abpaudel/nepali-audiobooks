@@ -81,21 +81,26 @@ def scrape_audiobook_episodes(link, post_class, content_class, is_retry=False):
     # Look for ahref links to mp3 files
     audio_tags = soup.find_all('a', href=lambda href: (href and href.strip().endswith('.mp3')))
     if audio_tags:
-        audiobook['episodes'] = [{'link': clean_link(audio_tag['href']),
-                                  'episode_name': get_episode_name(audio_tag),
-                                  'episode_number': f'Episode {i}',
-                                  'html_tag': 'a'}
-                                 for i, audio_tag in enumerate(audio_tags, 1)]
-        return audiobook
-
+        episodes_ahref = [{'link': clean_link(audio_tag['href']),
+                           'episode_name': get_episode_name(audio_tag),
+                           'episode_number': f'Episode {i}',
+                           'html_tag': 'a'}
+                          for i, audio_tag in enumerate(audio_tags, 1)]
+    else:
+        episodes_ahref = []
     # Look for audio tags
     audio_tags = soup.find_all('audio')
     if audio_tags:
-        audiobook['episodes'] = [{'link': clean_link(audio_tag.find('source')['src']),
-                                  'episode_name': get_episode_name(audio_tag),
-                                  'episode_number': f'Episode {i}',
-                                  'html_tag': 'audio'}
-                                 for i, audio_tag in enumerate(audio_tags, 1)]
+        episodes_audio = [{'link': clean_link(audio_tag.find('source')['src']),
+                           'episode_name': get_episode_name(audio_tag),
+                           'episode_number': f'Episode {i}',
+                           'html_tag': 'audio'}
+                          for i, audio_tag in enumerate(audio_tags, 1)]
+    else:
+        episodes_audio = []
+    # Verify that at least one of them has contents
+    if len(episodes_ahref) + len(episodes_audio) > 0:
+        audiobook['episodes'] = episodes_ahref if len(episodes_ahref) > len(episodes_audio) else episodes_audio
     return audiobook
 
 
@@ -108,8 +113,11 @@ def get_episode_name(audio_tag):
         if strong_tag:
             title = strong_tag.text.strip()
             next_sibling = strong_tag.next_sibling
-            episode_name = f'{title} - {next_sibling.strip()}' if next_sibling and next_sibling.name != 'br' else title
-            return episode_name
+            if next_sibling and next_sibling.name != 'br' and next_sibling.strip() != '':
+                episode_name = f'{title} - {next_sibling.strip()}'
+            else:
+                episode_name = title
+            return episode_name[:70]
     return ''
 
 
