@@ -10,158 +10,160 @@ https://abpaudel.com/nepali-audiobooks/feed/rss.xml
 
 ## Available audiobooks
 As of now, most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
-There are **147 audiobooks** with a total of **969 episodes**.
+There are **149 audiobooks** with a total of **1038 episodes**.
 
 <details>
 <summary>View all available audiobooks</summary>
 <ol>
-    <li>Junkiri Ko Sangeet</li>
-    <li>Subarnalata</li>
-    <li>Sarsarti Sansar</li>
-    <li>Jhareko Paat</li>
-    <li>Faliyeko Saman</li>
-    <li>Swet Bhairabi</li>
-    <li>Paheli</li>
-    <li>Maiya</li>
-    <li>Laltin Ko Ujyaloma</li>
-    <li>Yunika</li>
-    <li>Hajur Aama Ko Katha</li>
-    <li>Meera</li>
-    <li>Tamasuk</li>
-    <li>Tribhuvan Ki Erika</li>
-    <li>Ojhel</li>
-    <li>Jadau Malik</li>
-    <li>Ramila Nani</li>
-    <li>Naughreko June</li>
-    <li>Nihau Namaste</li>
-    <li>Jhajhalkaharu</li>
-    <li>White Cane</li>
-    <li>Taap</li>
-    <li>Abiral Bagdachha Indrawati</li>
-    <li>Arki Aimai</li>
-    <li>Bhok Ra Bhittaharu</li>
-    <li>Aarli Bhai</li>
-    <li>Chuli</li>
-    <li>Sabiti Novel</li>
-    <li>Urgen ko Ghoda</li>
-    <li>Mantha Darayeko Juug</li>
-    <li>Red Square</li>
-    <li>Budhan Ko Ghodi</li>
-    <li>Gham Ka Paila Haru</li>
-    <li>Lu Novel</li>
-    <li>Godhuli Sansar</li>
-    <li>Abstract Chintan Pyaj</li>
-    <li>Vianna Ma Tin Mahina</li>
-    <li>Kathmandu Selfie</li>
-    <li>Gularko Phool</li>
-    <li>Dhamboji Chok</li>
-    <li>Affairgunj</li>
-    <li>Dwanda Ko Abasan</li>
-    <li>Timro Logne Ra Ma</li>
-    <li>Saya Novel</li>
-    <li>Likhe Novel</li>
-    <li>Siddhartha Novel</li>
-    <li>Aaja Ramita Cha</li>
-    <li>Lal Chudi | Krishna Abiral</li>
-    <li>Anuradha</li>
-    <li>Seto Dharti</li>
-    <li>Sakas</li>
-    <li>Sadak Ra Pratibha</li>
-    <li>Chat Girl</li>
-    <li>Unko Samjhana</li>
-    <li>Summer Love</li>
-    <li>Agnibatika</li>
-    <li>Karnali Blues</li>
-    <li>Damini Bhir</li>
-    <li>Darbar Bahiraki Maharani</li>
-    <li>Muluk Bahira Ma</li>
-    <li>Atripta Garbhadhan</li>
-    <li>Aakarharu ra Chhaayaaharu | Nepali Story</li>
-    <li>Comrade Anjana and Chuki | Nepali Story</li>
-    <li>Yesari Janmiyaou Hami Maato Baata</li>
-    <li>Soch | Karna Shakya</li>
-    <li>Shanta</li>
-    <li>Sahar Ko Katha</li>
-    <li>Chapaiyeka Anuhar</li>
-    <li>Deshle Hareko Yudha</li>
-    <li>Pallo Gharko Jhyal</li>
-    <li>Laila Majnu</li>
-    <li>Franseli Premi</li>
-    <li>Lolita</li>
-    <li>Pyaas Bhitrako Bidroha</li>
-    <li>Seto Bagh</li>
-    <li>Karma</li>
-    <li>Nasho</li>
-    <li>Barbarik</li>
-    <li>Atma Britanta</li>
-    <li>Nepali Novel Palpasa Cafe</li>
-    <li>Nepali Novel Pagal basti</li>
-    <li>Nepali Novel Radha</li>
-    <li>Novel Romeo and Juliet</li>
-    <li>Nepali Novel Sumnima</li>
-    <li>Nepali Novel Maile Sarita ko Hatya Gare</li>
-    <li>Nepali Novel Paribhasit Aakhaharu</li>
-    <li>Nepali Novel Babu Aama Ra Chora</li>
-    <li>Cleopatra</li>
-    <li>Nepali Novel Tin Ghumti</li>
-    <li>Eleven Minutes</li>
-    <li>The Good Earth</li>
-    <li>The Alchemist</li>
-    <li>Anabrit</li>
-    <li>Akhet</li>
-    <li>Pani ko Gham</li>
-    <li>Nepali Novel Communist</li>
-    <li>Naagpash</li>
-    <li>Deuki</li>
-    <li>Prastab Prem</li>
-    <li>karagar nepali novels, Shruti Sambeg, Achyut Ghimire</li>
-    <li>Nepali Novel Aadha Bato</li>
-    <li>Tee Dinharu</li>
-    <li>Nepali Novel Jhola</li>
-    <li>Antarman ko Yatra</li>
-    <li>Phool ko Aankha ma</li>
-    <li>Santa Gatha</li>
-    <li>China Harayeko Manche</li>
-    <li>Divaswapna</li>
-    <li>Parikrama Annapurna</li>
-    <li>Jhunu Maiya</li>
-    <li>Location</li>
-    <li>Nilo Trishna, Niskarsha</li>
-    <li>Saharko Khojima | Ujyalo Tira | Euta Antya</li>
-    <li>Kandaaghari Kaa Phool Haru</li>
-    <li>Stories from Hawan</li>
-    <li>Yatra Aarambhako Serofero</li>
-    <li>Kaidi Number 11 | Janmina Napayeka Nani Haru</li>
-    <li>Urmila | Surparnkha</li>
-    <li>Aakarharu ra Chhaayaaharu | Nepali Story</li>
-    <li>Yesari Janmiyaou Hami Maato Baata</li>
-    <li>Chuki | Nepali Story</li>
-    <li>Comrade Anjana | Nepali Story</li>
-    <li>Urmila | Nepali Story</li>
-    <li>Suparnakha | Nepali Story</li>
-    <li>Arko Jeevan | Nepal Story</li>
-    <li>Dristi | Nepali Story</li>
-    <li>Living Together | Nepali Story</li>
-    <li>Lakure Pheri Phulne Cha | Nepali Story</li>
-    <li>Nilo Trishna | Nepali Story</li>
-    <li>Niskarsa | Nepali Story</li>
-    <li>Fatemako Anido Raat | Christina at the Rate | Mrityu Mela | Raju Babu Shrestha</li>
-    <li>Chita Mathi ko Bihani | Kahile Banda Nahune Dhoka | Chita Mathiko Bihani</li>
-    <li>Post Martum | Nepali Story</li>
-    <li>Udharo Jutta | Nepali Story</li>
-    <li>Pema Bhauju | Grihayuddha ko Ghau katha sangraha</li>
-    <li>Chiso Gham | Pratirup | Parai Aama | Saru Pokhrel</li>
-    <li>19 Number | Skhalan | Anamol Mani Poudel</li>
-    <li>Budho Kusumko Rukh | Duri Parda Bhitra Parda Bahira | Aawaz</li>
-    <li>Kabi ek Rekhachitra | Comrade ek Kathaharu</li>
-    <li>Ghoda | Santule Chakai</li>
-    <li>Sanskar | Bhoot | Rajendra Bimal ka Kathaharu</li>
-    <li>Ghat Pratighat | Jindagi, a Time Bomb | Dhurba Sapkota</li>
-    <li>Kalo Pot | Ragatle Latpatieka Jijibisha | Daulat Bikram Bista</li>
-    <li>Dallo and Flight Number 717 | Lenin Banjade</li>
-    <li>Abhisapta | Sambandhahin Sambandha haru</li>
-    <li>Yuddha | Matapitalai Sodhnuhos | Aama Januhos | Maya Thakuri</li>
-    <li>Karodau Kasturi</li>
+    <li>19 Number | Skhalan | Anamol Mani Poudel (1 episodes)</li>
+    <li>Aaja Ramita Cha (5 episodes)</li>
+    <li>Aakarharu ra Chhaayaaharu | Nepali Story (1 episodes)</li>
+    <li>Aakarharu ra Chhaayaaharu | Nepali Story (1 episodes)</li>
+    <li>Aarli Bhai (3 episodes)</li>
+    <li>Abhisapta | Sambandhahin Sambandha haru (1 episodes)</li>
+    <li>Abiral Bagdachha Indrawati (44 episodes)</li>
+    <li>Abstract Chintan Pyaj (3 episodes)</li>
+    <li>Affairgunj (1 episodes)</li>
+    <li>Agnibatika (13 episodes)</li>
+    <li>Akhet (8 episodes)</li>
+    <li>Anabrit (12 episodes)</li>
+    <li>Antarman ko Yatra (12 episodes)</li>
+    <li>Anuradha (8 episodes)</li>
+    <li>Arki Aimai (10 episodes)</li>
+    <li>Arko Jeevan | Nepal Story (1 episodes)</li>
+    <li>Atma Britanta (5 episodes)</li>
+    <li>Atripta Garbhadhan (6 episodes)</li>
+    <li>Barbarik (6 episodes)</li>
+    <li>Bhok Ra Bhittaharu (15 episodes)</li>
+    <li>Budhan Ko Ghodi (2 episodes)</li>
+    <li>Budho Kusumko Rukh | Duri Parda Bhitra Parda Bahira | Aawaz (1 episodes)</li>
+    <li>Chapaiyeka Anuhar (9 episodes)</li>
+    <li>Chat Girl (2 episodes)</li>
+    <li>China Harayeko Manche (15 episodes)</li>
+    <li>Chiso Gham | Pratirup | Parai Aama | Saru Pokhrel (1 episodes)</li>
+    <li>Chita Mathi ko Bihani | Kahile Banda Nahune Dhoka | Chita Mathiko Bihani (1 episodes)</li>
+    <li>Chuki | Nepali Story (1 episodes)</li>
+    <li>Chuli (3 episodes)</li>
+    <li>Cleopatra (9 episodes)</li>
+    <li>Comrade Anjana and Chuki | Nepali Story (1 episodes)</li>
+    <li>Comrade Anjana | Nepali Story (1 episodes)</li>
+    <li>Dallo and Flight Number 717 | Lenin Banjade (1 episodes)</li>
+    <li>Damini Bhir (14 episodes)</li>
+    <li>Darbar Bahiraki Maharani (24 episodes)</li>
+    <li>Deshle Hareko Yudha (6 episodes)</li>
+    <li>Deuki (1 episodes)</li>
+    <li>Dhamboji Chok (1 episodes)</li>
+    <li>Divaswapna (4 episodes)</li>
+    <li>Dristi | Nepali Story (1 episodes)</li>
+    <li>Dwanda Ko Abasan (4 episodes)</li>
+    <li>Eleven Minutes (10 episodes)</li>
+    <li>Faliyeko Saman (18 episodes)</li>
+    <li>Fatemako Anido Raat | Christina at the Rate | Mrityu Mela | Raju Babu Shrestha (1 episodes)</li>
+    <li>Franseli Premi (13 episodes)</li>
+    <li>Gham Ka Paila Haru (14 episodes)</li>
+    <li>Ghat Pratighat | Jindagi, a Time Bomb | Dhurba Sapkota (1 episodes)</li>
+    <li>Ghoda | Santule Chakai (2 episodes)</li>
+    <li>Godhuli Sansar (5 episodes)</li>
+    <li>Gularko Phool (16 episodes)</li>
+    <li>Hajur Aama Ko Katha (6 episodes)</li>
+    <li>Jadau Malik (14 episodes)</li>
+    <li>Jhajhalkaharu (8 episodes)</li>
+    <li>Jhareko Paat (6 episodes)</li>
+    <li>Jhunu Maiya (1 episodes)</li>
+    <li>Junkiri Ko Sangeet (24 episodes)</li>
+    <li>Kabi ek Rekhachitra | Comrade ek Kathaharu (1 episodes)</li>
+    <li>Kaidi Number 11 | Janmina Napayeka Nani Haru (1 episodes)</li>
+    <li>Kalo Pot | Ragatle Latpatieka Jijibisha | Daulat Bikram Bista (1 episodes)</li>
+    <li>Kandaaghari Kaa Phool Haru (3 episodes)</li>
+    <li>Karagar nepali novels, Shruti Sambeg, Achyut Ghimire (3 episodes)</li>
+    <li>Karma (10 episodes)</li>
+    <li>Karnali Blues (36 episodes)</li>
+    <li>Karodau Kasturi (1 episodes)</li>
+    <li>Kathmandu Selfie (3 episodes)</li>
+    <li>Laila Majnu (3 episodes)</li>
+    <li>Lakure Pheri Phulne Cha | Nepali Story (1 episodes)</li>
+    <li>Lal Chudi | Krishna Abiral (9 episodes)</li>
+    <li>Laltin Ko Ujyaloma (10 episodes)</li>
+    <li>Likhe Novel (16 episodes)</li>
+    <li>Living Together | Nepali Story (1 episodes)</li>
+    <li>Location (1 episodes)</li>
+    <li>Lolita (6 episodes)</li>
+    <li>Lu Novel (10 episodes)</li>
+    <li>Maha Ko Ma (2 episodes)</li>
+    <li>Maiya (2 episodes)</li>
+    <li>Mantha Darayeko Juug (13 episodes)</li>
+    <li>Meera (10 episodes)</li>
+    <li>Muluk Bahira Ma (9 episodes)</li>
+    <li>Naagpash (1 episodes)</li>
+    <li>Nasho (1 episodes)</li>
+    <li>Naughreko June (5 episodes)</li>
+    <li>Nepali Novel Aadha Bato (17 episodes)</li>
+    <li>Nepali Novel Babu Aama Ra Chora (7 episodes)</li>
+    <li>Nepali Novel Communist (1 episodes)</li>
+    <li>Nepali Novel Jhola (2 episodes)</li>
+    <li>Nepali Novel Maile Sarita ko Hatya Gare (1 episodes)</li>
+    <li>Nepali Novel Pagal basti (14 episodes)</li>
+    <li>Nepali Novel Palpasa Cafe (8 episodes)</li>
+    <li>Nepali Novel Paribhasit Aakhaharu (11 episodes)</li>
+    <li>Nepali Novel Radha (16 episodes)</li>
+    <li>Nepali Novel Shirish ko Phool (5 episodes)</li>
+    <li>Nepali Novel Sumnima (8 episodes)</li>
+    <li>Nepali Novel Tin Ghumti (5 episodes)</li>
+    <li>Nihau Namaste (4 episodes)</li>
+    <li>Nilo Trishna | Nepali Story (1 episodes)</li>
+    <li>Nilo Trishna, Niskarsha (1 episodes)</li>
+    <li>Niskarsa | Nepali Story (1 episodes)</li>
+    <li>Novel Romeo and Juliet (1 episodes)</li>
+    <li>Ojhel (4 episodes)</li>
+    <li>Paheli (5 episodes)</li>
+    <li>Pallo Gharko Jhyal (5 episodes)</li>
+    <li>Pani ko Gham (1 episodes)</li>
+    <li>Parikrama Annapurna (1 episodes)</li>
+    <li>Pema Bhauju | Grihayuddha ko Ghau katha sangraha (1 episodes)</li>
+    <li>Phool ko Aankha ma (10 episodes)</li>
+    <li>Post Martum | Nepali Story (1 episodes)</li>
+    <li>Prastab Prem (1 episodes)</li>
+    <li>Pyaas Bhitrako Bidroha (5 episodes)</li>
+    <li>Ramila Nani (11 episodes)</li>
+    <li>Red Square (6 episodes)</li>
+    <li>Sabiti Novel (4 episodes)</li>
+    <li>Sadak Ra Pratibha (1 episodes)</li>
+    <li>Sahar Ko Katha (9 episodes)</li>
+    <li>Saharko Khojima | Ujyalo Tira | Euta Antya (2 episodes)</li>
+    <li>Sakas (14 episodes)</li>
+    <li>Sanskar | Bhoot | Rajendra Bimal ka Kathaharu (1 episodes)</li>
+    <li>Santa Gatha (27 episodes)</li>
+    <li>Sarsarti Sansar (10 episodes)</li>
+    <li>Saya Novel (11 episodes)</li>
+    <li>Seto Bagh (4 episodes)</li>
+    <li>Seto Dharti (40 episodes)</li>
+    <li>Shanta (13 episodes)</li>
+    <li>Siddhartha Novel (11 episodes)</li>
+    <li>Soch | Karna Shakya (7 episodes)</li>
+    <li>Stories from Hawan (2 episodes)</li>
+    <li>Subarnalata (11 episodes)</li>
+    <li>Summer Love (12 episodes)</li>
+    <li>Suparnakha | Nepali Story (1 episodes)</li>
+    <li>Swet Bhairabi (4 episodes)</li>
+    <li>Taap (14 episodes)</li>
+    <li>Tamasuk (3 episodes)</li>
+    <li>Tee Dinharu (3 episodes)</li>
+    <li>The Alchemist (6 episodes)</li>
+    <li>The Good Earth (16 episodes)</li>
+    <li>Timro Logne Ra Ma (2 episodes)</li>
+    <li>Tribhuvan Ki Erika (11 episodes)</li>
+    <li>Udharo Jutta | Nepali Story (1 episodes)</li>
+    <li>Unko Samjhana (6 episodes)</li>
+    <li>Urgen ko Ghoda (14 episodes)</li>
+    <li>Urmila | Nepali Story (1 episodes)</li>
+    <li>Urmila | Surparnkha (1 episodes)</li>
+    <li>Vianna Ma Tin Mahina (1 episodes)</li>
+    <li>White Cane (52 episodes)</li>
+    <li>Yatra Aarambhako Serofero (1 episodes)</li>
+    <li>Yesari Janmiyaou Hami Maato Baata (1 episodes)</li>
+    <li>Yesari Janmiyaou Hami Maato Baata (1 episodes)</li>
+    <li>Yuddha | Matapitalai Sodhnuhos | Aama Januhos | Maya Thakuri (1 episodes)</li>
+    <li>Yunika (9 episodes)</li>
 </ol>
 </details>
 
