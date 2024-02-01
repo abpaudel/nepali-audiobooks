@@ -14,7 +14,8 @@ def get_all_audiobooks(main_page_url, post_class='post hentry', content_class='p
     audiobooks = []
     for i, link in enumerate(links):
         link['href'] = clean_link(link['href'])
-        link['title'] = link.get('title', link.text).strip()
+        title = link.get('title', link.text).strip()
+        link['title'] = title[0].upper() + title[1:]
         print(f"Scraping {i+1}/{len(links)}: {link['href']}")
         print(f"\tTitle: {link['title']}")
         audiobook = scrape_audiobook_episodes(link['href'], post_class, content_class)
@@ -83,7 +84,7 @@ def scrape_audiobook_episodes(link, post_class, content_class, is_retry=False):
     if audio_tags:
         episodes_ahref = [{'link': clean_link(audio_tag['href']),
                            'episode_name': get_episode_name(audio_tag),
-                           'episode_number': f'Episode {i}',
+                           'episode_number': i,
                            'html_tag': 'a'}
                           for i, audio_tag in enumerate(audio_tags, 1)]
     else:
@@ -93,7 +94,7 @@ def scrape_audiobook_episodes(link, post_class, content_class, is_retry=False):
     if audio_tags:
         episodes_audio = [{'link': clean_link(audio_tag.find('source')['src']),
                            'episode_name': get_episode_name(audio_tag),
-                           'episode_number': f'Episode {i}',
+                           'episode_number': i,
                            'html_tag': 'audio'}
                           for i, audio_tag in enumerate(audio_tags, 1)]
     else:

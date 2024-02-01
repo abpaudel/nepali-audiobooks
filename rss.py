@@ -1,5 +1,6 @@
 from datetime import datetime
 from pathlib import Path
+import hashlib
 
 
 def save_rss_feed(audiobooks, save_path):
@@ -50,7 +51,8 @@ def save_rss_feed(audiobooks, save_path):
     for audiobook in audiobooks:
         print(f"\t{audiobook['title']} ({len(audiobook['episodes'])} episodes)")
         for episode in audiobook['episodes']:
-            title = f"{audiobook['title']} - {episode['episode_number']}"
+            ep_num = episode['episode_number']
+            title = f"{audiobook['title']} - Episode {ep_num}"
             description = f'{title}\n'
             description += f'Report issues with episodes at <a href="{github_url}">{github_url}</a>.\n\n'
             description += audiobook['description']
@@ -61,14 +63,17 @@ def save_rss_feed(audiobooks, save_path):
             audiobook_link = audiobook['link']
             subtitle = episode['episode_name'] if episode['episode_name'] != '' else title
             episode_link = episode['link']
+            md5_digest = hashlib.md5(audiobook['title'].encode('utf-8')).hexdigest()
+            guid = f'{md5_digest}{ep_num:03d}'
             rss_item = (
-                '       <item>\n'
+                '        <item>\n'
                 f'            <title>{title}</title>\n'
                 '            <description>\n'
                 f'                <![CDATA[{description}]]>\n'
                 '            </description>\n'
                 f'            <pubDate>{pubdate}</pubDate>\n'
                 f'            <link>{audiobook_link}</link>\n'
+                f'            <guid isPermaLink="false">{guid}</guid>\n'
                 f'            <itunes:subtitle>{subtitle}</itunes:subtitle>\n'
                 f'            <enclosure url="{episode_link}" type="audio/mpeg"/>\n'
                 f'            <itunes:image href="{image}"/>\n'
