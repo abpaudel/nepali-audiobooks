@@ -43,6 +43,8 @@ def get_all_audiobooks(main_page_url, post_class='post hentry', content_class='p
             print(f"\tFound {len(audiobook['episodes'])} episodes for {audiobook['title']}.")
         else:
             print(f"\tNo episodes found for {audiobook['title']}.")
+    # Sort audiobooks by title
+    audiobooks = sorted(audiobooks, key=lambda x: x['title'])
     return audiobooks
 
 
