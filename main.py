@@ -120,7 +120,7 @@ def get_episode_name(audio_tag):
                 episode_name = f'{title} - {next_sibling.strip()}'
             else:
                 episode_name = title
-            return episode_name[:70]
+            return episode_name[:70].replace('&', '|')
     return ''
 
 
