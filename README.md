@@ -10,7 +10,7 @@ https://abpaudel.com/nepali-audiobooks/feed/rss.xml
 
 ## Available audiobooks
 As of now, most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
-There are **149 audiobooks** with a total of **1038 episodes**.
+There are **149 audiobooks** with a total of **1018 episodes**.
 
 <details>
 <summary>View all available audiobooks</summary>
@@ -136,7 +136,7 @@ There are **149 audiobooks** with a total of **1038 episodes**.
     <li>Sarsarti Sansar (10 episodes)</li>
     <li>Saya Novel (11 episodes)</li>
     <li>Seto Bagh (4 episodes)</li>
-    <li>Seto Dharti (40 episodes)</li>
+    <li>Seto Dharti (20 episodes)</li>
     <li>Shanta (13 episodes)</li>
     <li>Siddhartha Novel (11 episodes)</li>
     <li>Soch | Karna Shakya (7 episodes)</li>
