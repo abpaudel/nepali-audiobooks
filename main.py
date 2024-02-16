@@ -84,21 +84,17 @@ def scrape_audiobook_episodes(link, post_class, content_class, is_retry=False):
     # Look for ahref links to mp3 files
     audio_tags = soup.find_all('a', href=lambda href: (href and href.strip().endswith('.mp3')))
     if audio_tags:
-        episodes_ahref = [{'link': clean_link(audio_tag['href']),
-                           'episode_name': get_episode_name(audio_tag),
-                           'episode_number': i,
-                           'html_tag': 'a'}
-                          for i, audio_tag in enumerate(audio_tags, 1)]
+        for audio_tag in audio_tags:
+            audio_tag['link'] = clean_link(audio_tag['href'])
+        episodes_ahref = get_episodes_from_audio_tag(audio_tags)
     else:
         episodes_ahref = []
     # Look for audio tags
     audio_tags = soup.find_all('audio')
     if audio_tags:
-        episodes_audio = [{'link': clean_link(audio_tag.find('source')['src']),
-                           'episode_name': get_episode_name(audio_tag),
-                           'episode_number': i,
-                           'html_tag': 'audio'}
-                          for i, audio_tag in enumerate(audio_tags, 1)]
+        for audio_tag in audio_tags:
+            audio_tag['link'] = clean_link(audio_tag.find('source')['src'])
+        episodes_audio = get_episodes_from_audio_tag(audio_tags)
     else:
         episodes_audio = []
     # Verify that at least one of them has contents
@@ -144,6 +140,19 @@ def clean_link(link):
     elif link.startswith("http://"):
         link = link[:4] + 's' + link[4:]
     return link.strip()
+
+
+def get_episodes_from_audio_tag(audio_tags):
+    episodes = []
+    added_links = []  # Maintain a list of links to avoid duplicates
+    for audio_tag in audio_tags:
+        if audio_tag['link'] in added_links:
+            continue
+        added_links.append(audio_tag['link'])
+        episodes.append({'link': audio_tag['link'],
+                         'episode_name': get_episode_name(audio_tag),
+                         'episode_number': len(added_links)})
+    return episodes
 
 
 if __name__ == "__main__":
