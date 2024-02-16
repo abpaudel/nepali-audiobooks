@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import argparse
+import re
 from rss import save_rss_feed
 
 
@@ -14,8 +15,8 @@ def get_all_audiobooks(main_page_url, post_class='post hentry', content_class='p
     audiobooks = []
     for i, link in enumerate(links):
         link['href'] = clean_link(link['href'])
-        title = link.get('title', link.text).strip()
-        link['title'] = title[0].upper() + title[1:]
+        title = link.get('title', link.text)
+        link['title'] = clean_title(title)
         print(f"Scraping {i+1}/{len(links)}: {link['href']}")
         print(f"\tTitle: {link['title']}")
         audiobook = scrape_audiobook_episodes(link['href'], post_class, content_class)
@@ -43,8 +44,18 @@ def get_all_audiobooks(main_page_url, post_class='post hentry', content_class='p
             print(f"\tFound {len(audiobook['episodes'])} episodes for {audiobook['title']}.")
         else:
             print(f"\tNo episodes found for {audiobook['title']}.")
+
+    # Check if there are audiobooks with same title and remove duplicates
+    audiobooks_ = []
+    added_titles = []
+    for audiobook in audiobooks:
+        title = audiobook['title'].lower()
+        if title in added_titles:
+            continue
+        audiobooks_.append(audiobook)
+        added_titles.append(title)
     # Sort audiobooks by title
-    audiobooks = sorted(audiobooks, key=lambda x: x['title'])
+    audiobooks = sorted(audiobooks_, key=lambda x: x['title'])
     return audiobooks
 
 
@@ -65,10 +76,8 @@ def scrape_audiobook_episodes(link, post_class, content_class, is_retry=False):
             timestamp_tag = soup_page.find('abbr', class_='published')
         # Find description and cover image
         soup = soup.find('div', class_=content_class)
-        description = soup.text.strip()
-        description = description.replace('Your browser does not support the audio element', '')
-        description = description.replace('Sorry, your browser does not support HTML5 audio.', '')
-        description = ' '.join(description.split())
+        description = soup.text
+        description = clean_description(description)
         cover_image = soup.find('img')
         cover_image_link = clean_link(cover_image['src']) if cover_image is not None else ''
         timestamp = datetime.strptime(timestamp_tag['title'], '%Y-%m-%dT%H:%M:%S%z')
@@ -140,6 +149,21 @@ def clean_link(link):
     elif link.startswith("http://"):
         link = link[:4] + 's' + link[4:]
     return link.strip()
+
+
+def clean_title(title):
+    patterns = ['nepali novels?', 'novels?', 'shruti sambeg', 'achyut ghimire']
+    regex_pattern = re.compile('|'.join(patterns), flags=re.IGNORECASE)
+    title = regex_pattern.sub('', title)
+    title = title.strip('.,;!?|\n ')
+    return title[0].upper() + title[1:]
+
+
+def clean_description(description):
+    description = description.replace('Your browser does not support the audio element', '')
+    description = description.replace('Sorry, your browser does not support HTML5 audio.', '')
+    description = ' '.join(description.strip().split())
+    return description
 
 
 def get_episodes_from_audio_tag(audio_tags):
