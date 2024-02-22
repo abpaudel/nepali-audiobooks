@@ -3,7 +3,7 @@
 <channel>
     <itunes:block>yes</itunes:block>
     <title>Nepali Audiobooks</title>
-    <lastBuildDate>Thu, 22 Feb 2024 13:34:19 </lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 13:57:02 </lastBuildDate>
     <link>https://abpaudel.com/nepali-audiobooks/</link>
     <language>en-us</language>
     <itunes:author>github.com/abpaudel</itunes:author>
@@ -14,11 +14,11 @@
     </image>
     <itunes:summary>
        <![CDATA[A curated collection of Nepali audiobooks, novels and stories from Shruti Sambeg and other programs. The audiobooks are collected from publicly available sources.
-Find more details at <a href="https://github.com/abpaudel/nepali-audiobooks">https://github.com/abpaudel/nepali-audiobooks</a>]]>
+Find more details at <a href="https://abpaudel.com/nepali-audiobooks/">https://abpaudel.com/nepali-audiobooks/</a>]]>
     </itunes:summary>
     <description>
        <![CDATA[A curated collection of Nepali audiobooks, novels and stories from Shruti Sambeg and other programs. The audiobooks are collected from publicly available sources.
-Find more details at <a href="https://github.com/abpaudel/nepali-audiobooks">https://github.com/abpaudel/nepali-audiobooks</a>]]>
+Find more details at <a href="https://abpaudel.com/nepali-audiobooks/">https://abpaudel.com/nepali-audiobooks/</a>]]>
     </description>
     <itunes:image href="https://abpaudel.com/nepali-audiobooks/nepali-audiobooks.jpg"/>
     <itunes:category text="Arts"><itunes:category text="Books"/></itunes:category>
