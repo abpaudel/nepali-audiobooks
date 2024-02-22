@@ -12,7 +12,7 @@ def save_rss_feed(audiobooks, save_path):
     cover_image = 'https://abpaudel.com/nepali-audiobooks/nepali-audiobooks.jpg'
     summary = ('A curated collection of Nepali audiobooks, novels and stories from Shruti Sambeg and other programs. '
                'The audiobooks are collected from publicly available sources.\n'
-               f'Find more details at <a href="{github_url}">{github_url}</a>')
+               f'Find more details at <a href="{homepage_url}">{homepage_url}</a>')
     current_datetime = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')
     rss_feed_start = (
         '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
