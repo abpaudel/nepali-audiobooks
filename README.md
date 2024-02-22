@@ -10,7 +10,7 @@ https://abpaudel.com/nepali-audiobooks/feed/rss.xml
 
 ## Available audiobooks
 As of now, most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
-There are **147 audiobooks** with a total of **984 episodes**.
+There are **146 audiobooks** with a total of **983 episodes**.
 
 <details>
 <summary>View all available audiobooks</summary>
@@ -46,7 +46,6 @@ There are **147 audiobooks** with a total of **984 episodes**.
     <li>Chuki | Nepali Story (1 episodes)</li>
     <li>Chuli (3 episodes)</li>
     <li>Cleopatra (9 episodes)</li>
-    <li>Communist (1 episodes)</li>
     <li>Comrade Anjana and Chuki | Nepali Story (1 episodes)</li>
     <li>Comrade Anjana | Nepali Story (1 episodes)</li>
     <li>Dallo and Flight Number 717 | Lenin Banjade (1 episodes)</li>
