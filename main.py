@@ -106,9 +106,12 @@ def scrape_audiobook_episodes(link, post_class, content_class, is_retry=False):
         episodes_audio = get_episodes_from_audio_tag(audio_tags)
     else:
         episodes_audio = []
+    # Count the number of links found
+    num_links_ahref = len([ep['link'] for ep in episodes_ahref if ep['link'] != ''])
+    num_links_audio = len([ep['link'] for ep in episodes_audio if ep['link'] != ''])
     # Verify that at least one of them has contents
-    if len(episodes_ahref) + len(episodes_audio) > 0:
-        audiobook['episodes'] = episodes_ahref if len(episodes_ahref) > len(episodes_audio) else episodes_audio
+    if num_links_ahref + num_links_audio > 0:
+        audiobook['episodes'] = episodes_ahref if num_links_ahref > num_links_audio else episodes_audio
     return audiobook
 
 
