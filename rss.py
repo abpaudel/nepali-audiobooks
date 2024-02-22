@@ -7,6 +7,7 @@ def save_rss_feed(audiobooks, save_path):
     '''Generates an rss feed for the audiobooks to be used with podcast apps'''
     save_path = Path(save_path)
     save_path.parent.mkdir(exist_ok=True)
+    homepage_url = 'https://abpaudel.com/nepali-audiobooks/'
     github_url = 'https://github.com/abpaudel/nepali-audiobooks'
     cover_image = 'https://abpaudel.com/nepali-audiobooks/nepali-audiobooks.jpg'
     summary = ('A curated collection of Nepali audiobooks, novels and stories from Shruti Sambeg and other programs. '
@@ -20,15 +21,15 @@ def save_rss_feed(audiobooks, save_path):
         '    <itunes:block>yes</itunes:block>\n'
         '    <title>Nepali Audiobooks</title>\n'
         f'    <lastBuildDate>{current_datetime}</lastBuildDate>\n'
-        f'    <link>{github_url}</link>\n'
+        f'    <link>{homepage_url}</link>\n'
         '    <language>en-us</language>\n'
         '    <itunes:author>github.com/abpaudel</itunes:author>\n'
         '    <image>\n'
         f'        <url>{cover_image}</url>\n'
         '        <title>Nepali Audiobooks</title>\n'
-        f'        <link>{github_url}</link>\n'
+        f'        <link>{homepage_url}</link>\n'
         '    </image>\n'
-        '    <itunes:summary\n>'
+        '    <itunes:summary>\n'
         f'       <![CDATA[{summary}]]>\n'
         '    </itunes:summary>\n'
         '    <description>\n'
@@ -52,7 +53,7 @@ def save_rss_feed(audiobooks, save_path):
             ep_num = episode['episode_number']
             title = f"{audiobook['title']} - Episode {ep_num}"
             description = f'{title}\n'
-            description += f'Report issues with episodes at <a href="{github_url}">{github_url}</a>.\n\n'
+            description += f'Report issues with episodes at <a href="{github_url}/issues">{github_url}/issues</a>.\n\n'
             description += audiobook['description']
             description += '\nEpisode description/links courtesy of https://hamroawaz.blogspot.com.'
             pubdate = audiobook['timestamp']
