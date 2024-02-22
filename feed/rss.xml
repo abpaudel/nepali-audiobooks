@@ -3,7 +3,7 @@
 <channel>
     <itunes:block>yes</itunes:block>
     <title>Nepali Audiobooks</title>
-    <lastBuildDate>Fri, 16 Feb 2024 17:23:11 </lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 13:10:27 </lastBuildDate>
     <link>https://github.com/abpaudel/nepali-audiobooks</link>
     <language>en-us</language>
     <itunes:author>github.com/abpaudel</itunes:author>
@@ -3817,23 +3817,6 @@ Episode description/links courtesy of https://hamroawaz.blogspot.com.]]>
             <itunes:explicit>no</itunes:explicit>
         </item>
         <item>
-            <title>Communist - Episode 1</title>
-            <itunes:subtitle>Communist - Episode 1</itunes:subtitle>
-            <description>
-                <![CDATA[Communist - Episode 1
-Report issues with episodes at <a href="https://github.com/abpaudel/nepali-audiobooks">https://github.com/abpaudel/nepali-audiobooks</a>.
-
-Communist story by Anwika Giri Listen communist story. Anwika Giri Has written (Translated) this story. Listen and download Communist Story by Anwika Giri. . You can Download this Episode Download Communist By Anwika Giri
-Episode description/links courtesy of https://hamroawaz.blogspot.com.]]>
-            </description>
-            <pubDate>Mon, 31 Oct 2011 20:51:00 +0545</pubDate>
-            <link>https://goo.gl/qi7fT</link>
-            <guid isPermaLink="false">a52956d110ea23c04bd934e0adfd1c92001</guid>
-            <enclosure url="" type="audio/mpeg"/>
-            <itunes:image href="https://abpaudel.com/nepali-audiobooks/nepali-audiobooks.jpg"/>
-            <itunes:explicit>no</itunes:explicit>
-        </item>
-        <item>
             <title>Comrade Anjana and Chuki | Nepali Story - Episode 1</title>
             <itunes:subtitle>Comrade Anjana and Chuki</itunes:subtitle>
             <description>
@@ -7626,7 +7609,7 @@ Episode description/links courtesy of https://hamroawaz.blogspot.com.]]>
         </item>
         <item>
             <title>Karodau Kasturi - Episode 1</title>
-            <itunes:subtitle>Listen Karodau Kasturi</itunes:subtitle>
+            <itunes:subtitle>Karodau Kasturi Full</itunes:subtitle>
             <description>
                 <![CDATA[Karodau Kasturi - Episode 1
 Report issues with episodes at <a href="https://github.com/abpaudel/nepali-audiobooks">https://github.com/abpaudel/nepali-audiobooks</a>.
@@ -7637,7 +7620,6 @@ Episode description/links courtesy of https://hamroawaz.blogspot.com.]]>
             <pubDate>Sun, 18 Apr 2021 22:07:00 +0545</pubDate>
             <link>https://hamroawaz.blogspot.com/2021/04/karodau-kasturi-amar-neupane.html</link>
             <guid isPermaLink="false">5361627bcf3fc6b20b30dfd25eecbe07001</guid>
-            <itunes:subtitle>Listen Karodau Kasturi</itunes:subtitle>
             <enclosure url="https://archive.org/download/FullNovel-KarodauKasturiByAmarNeupaneFMProgramParijat/Full%20Novel-Karodau%20Kasturi%20by%20Amar%20Neupane%20%28FM%20Program%20Parijat%29.mp3" type="audio/mpeg"/>
             <itunes:image href="https://1.bp.blogspot.com/-BCNFxi5GAZ8/YHxcvDpkU1I/AAAAAAAAEBU/bE1MHXKMBCUzpZImrWVnJm7rAS-1G4OlQCLcBGAsYHQ/s200/Karodaun_Kasturi.jpg"/>
             <itunes:explicit>no</itunes:explicit>
@@ -10143,7 +10125,7 @@ Episode description/links courtesy of https://hamroawaz.blogspot.com.]]>
         </item>
         <item>
             <title>Pani ko Gham - Episode 1</title>
-            <itunes:subtitle>Listen Pani ko Gham</itunes:subtitle>
+            <itunes:subtitle>Pani ko Gham Part 1</itunes:subtitle>
             <description>
                 <![CDATA[Pani ko Gham - Episode 1
 Report issues with episodes at <a href="https://github.com/abpaudel/nepali-audiobooks">https://github.com/abpaudel/nepali-audiobooks</a>.
@@ -10154,7 +10136,7 @@ Episode description/links courtesy of https://hamroawaz.blogspot.com.]]>
             <pubDate>Mon, 31 Oct 2011 20:50:00 +0545</pubDate>
             <link>https://goo.gl/Eqbck</link>
             <guid isPermaLink="false">412063efbca0419efa85833759b7ef09001</guid>
-            <enclosure url="" type="audio/mpeg"/>
+            <enclosure url="https://archive.org/download/ha12n/pani%20ko%20gham.mp3" type="audio/mpeg"/>
             <itunes:image href="https://abpaudel.com/nepali-audiobooks/nepali-audiobooks.jpg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
