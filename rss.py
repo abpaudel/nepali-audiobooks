@@ -18,7 +18,6 @@ def save_rss_feed(audiobooks, save_path):
         '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
         '<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">\n'
         '<channel>\n'
-        '    <itunes:block>yes</itunes:block>\n'
         '    <title>Nepali Audiobooks</title>\n'
         f'    <lastBuildDate>{current_datetime}</lastBuildDate>\n'
         f'    <link>{homepage_url}</link>\n'

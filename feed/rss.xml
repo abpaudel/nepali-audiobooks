@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
-    <itunes:block>yes</itunes:block>
     <title>Nepali Audiobooks</title>
-    <lastBuildDate>Thu, 22 Feb 2024 13:57:02 </lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 15:29:39 </lastBuildDate>
     <link>https://abpaudel.com/nepali-audiobooks/</link>
     <language>en-us</language>
     <itunes:author>github.com/abpaudel</itunes:author>
