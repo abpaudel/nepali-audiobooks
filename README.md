@@ -1,5 +1,5 @@
 # Nepali Audiobooks
-<img src="nepali-audiobooks.jpg" style="width: 130px; margin-right: 20px;" align="left">
+<img src="nepali-audiobooks.jpg" style="width: 170px; margin-right: 20px;" align="left">
 
 **RSS Podcast feed for publicly available Nepali audiobooks**
 
@@ -7,6 +7,7 @@ Add this RSS feed to your podcast player:
 ```
 https://abpaudel.com/nepali-audiobooks/feed/rss.xml
 ```
+Also indexed on [Podcast Index](https://podcastindex.org/podcast/6716812).
 
 ## Available audiobooks
 As of now, most of the audiobooks are scraped from [this site](https://hamroawaz.blogspot.com/2012/04/shruti-sambeg.html).
